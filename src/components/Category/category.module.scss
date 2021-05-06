@@ -1,0 +1,12 @@
+.category {
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &.selected {
+    color: teal;
+    font-weight: bold;
+  }
+}
