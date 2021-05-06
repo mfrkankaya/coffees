@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  min-width: 15rem;
+  border-right: 1px solid #ddd;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.drawer,
+.main {
+  padding: 4rem 2rem;
+}
+
+@media (max-width: 576px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .drawer {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
