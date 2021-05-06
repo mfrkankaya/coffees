@@ -1,0 +1,20 @@
+@font-face {
+  font-family: exo;
+  src: url(/exo-bold.woff2);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(/roboto-regular.woff2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+}
