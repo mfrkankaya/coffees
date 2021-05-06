@@ -1,0 +1,18 @@
+.coffee {
+  max-width: 40rem;
+  margin-bottom: 3rem;
+
+  .title {
+    font-size: 2rem;
+    font-family: exo;
+  }
+
+  .desc {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .ingredients {
+    opacity: 0.5;
+  }
+}
